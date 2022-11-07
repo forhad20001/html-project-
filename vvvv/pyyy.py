@@ -1,0 +1,1 @@
+print("forhad khan")

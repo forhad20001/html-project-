@@ -1,0 +1,834 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(241, 234, 234);
+}
+
+
+
+
+
+.flexcontenar {
+    width: 900px;
+    height: 600px;
+    background-color: rgb(10, 117, 42);
+    margin: auto;
+    display: flex;
+}
+
+.leftbox {
+    width: 320px;
+    height: 600px;
+    background-color: blueviolet;
+}
+
+.lefttop {
+    width: 320px;
+    height: 200px;
+    background-color: rgb(250, 19, 19);
+}
+
+.leftcenter {
+    width: 320px;
+    height: 200px;
+    background-color: chartreuse;
+    display: flex;
+}
+
+.lcl {
+    width: 160px;
+    height: 200px;
+    background-color: rgb(10, 21, 121);
+}
+
+.lcr {
+    width: 160px;
+    height: 200px;
+    background-color: cyan;
+}
+
+.lcrt {
+    width: 160px;
+    height: 60px;
+    background-color: forestgreen;
+}
+
+.lcrb {
+    width: 160px;
+    height: 140px;
+    background-color: darkviolet;
+}
+
+.leftbottom {
+    width: 320px;
+    height: 200px;
+    background-color: lightcoral;
+}
+
+.centerbox {
+    width: 260px;
+    height: 600px;
+    background-color: darkmagenta;
+}
+
+.centertop {
+    width: 260px;
+    height: 350px;
+    background-color: deeppink;
+    display: flex;
+}
+
+.ctl {
+    width: 130px;
+    height: 350px;
+    background-color: aqua;
+}
+
+.ctr {
+    width: 130px;
+    height: 350px;
+    background-color: firebrick;
+
+}
+
+.crt {
+    width: 130px;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+.crb {
+    width: 130px;
+    height: 250px;
+    background-color: rgb(29, 11, 95);
+}
+
+.centerbottom {
+    width: 260px;
+    height: 250px;
+    background-color: chartreuse;
+}
+
+.rightbox {
+    width: 320px;
+    height: 600px;
+    background-color: darkgreen;
+}
+
+.rt {
+    width: 320px;
+    height: 200px;
+    background-color: black;
+}
+
+.rtt {
+    width: 320px;
+    height: 100px;
+    background-color: rgb(241, 20, 168);
+}
+
+.rtb {
+    width: 320px;
+    height: 100px;
+    background-color: lightgreen;
+    display: flex;
+}
+
+.rtbl {
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+}
+
+.rtbr {
+    width: 220px;
+    height: 100px;
+    background-color: rgb(25, 22, 31);
+}
+
+.rc {
+    width: 320px;
+    height: 220px;
+    background-color: blue;
+
+}
+
+.rb {
+    width: 320px;
+    height: 180px;
+    background-color: darkred;
+}
+
+
+
+
+
+
+
+
+.mainbox {
+    width: 700px;
+    height: 500px;
+    background-color: blueviolet;
+    margin: auto;
+    display: flex;
+
+}
+
+.left1 {
+    width: 200px;
+    height: 500px;
+    background-color: blue;
+}
+
+.left1t {
+    width: 200px;
+    height: 100px;
+    background-color: brown;
+}
+
+.left1c1 {
+    width: 200px;
+    height: 150px;
+    background-color: chartreuse;
+}
+
+.left1c2 {
+    width: 200px;
+    height: 150px;
+    background-color: chocolate;
+}
+
+.left1b {
+    width: 200px;
+    height: 100px;
+    background-color: forestgreen;
+}
+
+.center1 {
+    width: 300px;
+    height: 500px;
+    background-color: crimson;
+}
+
+.center1t {
+    width: 300px;
+    height: 100px;
+    background-color: darkviolet;
+}
+
+.center1c {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(31, 13, 80);
+}
+
+.center1b {
+    width: 300px;
+    height: 100px;
+    background-color: fuchsia;
+}
+
+.right1 {
+    width: 200px;
+    height: 500px;
+    background-color: chartreuse;
+}
+
+.right1t {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(35, 5, 63);
+}
+
+.right1c1 {
+    width: 200px;
+    height: 150px;
+    background-color: deeppink;
+}
+
+.right1c2 {
+    width: 200px;
+    height: 150px;
+    background-color: darkmagenta;
+}
+
+.right1b {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(156, 23, 101);
+}
+
+
+
+
+
+
+
+
+
+
+.mainbox1 {
+    width: 700px;
+    height: 500px;
+    background-color: chartreuse;
+    margin: auto;
+    display: flex;
+}
+
+.left2 {
+    width: 200px;
+    height: 500px;
+    background-color: blue;
+}
+
+.left2t {
+    width: 200px;
+    height: 50px;
+    background-color: brown;
+}
+
+.left2c1 {
+    width: 200px;
+    height: 150px;
+    background-color: blueviolet;
+}
+
+.left2c2 {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(17, 90, 109);
+}
+
+.left2b {
+    width: 200px;
+    height: 200px;
+    background-color: darkorchid;
+}
+
+.center2 {
+    width: 300px;
+    height: 500px;
+    background-color: blueviolet;
+}
+
+.center2t {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(163, 35, 41);
+}
+
+.center2b {
+    width: 300px;
+    height: 200px;
+    background-color: darkcyan;
+}
+
+.bottom2 {
+    width: 200px;
+    height: 500px;
+    background-color: brown;
+}
+
+.bottom2t {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(248, 74, 219);
+}
+
+.bottom2c1 {
+    width: 200px;
+    height: 150px;
+    background-color: darkmagenta;
+}
+
+.bottom2c2 {
+    width: 200px;
+    height: 100px;
+    background-color: lawngreen;
+}
+
+.bottom2b {
+    width: 200px;
+    height: 200px;
+    background-color: darkgreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+.mainbox2 {
+    width: 720px;
+    height: 500px;
+    background-color: blue;
+    margin: auto;
+    display: flex;
+}
+
+.left3 {
+    width: 210px;
+    height: 500px;
+    background-color: blueviolet;
+}
+
+.left3t {
+    width: 210px;
+    height: 100px;
+    background-color: brown;
+}
+
+.left3c {
+    width: 210px;
+    height: 250px;
+    background-color: chartreuse;
+}
+
+.left3b {
+    width: 210px;
+    height: 150px;
+    background-color: rgb(77, 7, 87);
+    display: flex;
+}
+
+.l3bl {
+    width: 70px;
+    height: 150px;
+    background-color: rgb(253, 21, 21);
+}
+
+.l3bc {
+    width: 70px;
+    height: 150px;
+    background-color: darkgreen;
+}
+
+.l3br {
+    width: 70px;
+    height: 150px;
+    background-color: darkmagenta;
+}
+
+.center3 {
+    width: 300px;
+    height: 500px;
+    background-color: brown;
+}
+
+.center3t {
+    width: 300px;
+    height: 275px;
+    background-color: darkmagenta;
+}
+
+.center3c {
+    width: 300px;
+    height: 75px;
+    background-color: chartreuse;
+    display: flex;
+}
+
+.c3cl {
+    width: 75px;
+    height: 75px;
+    background-color: rgb(21, 10, 36);
+}
+
+.c3cc1 {
+    width: 75px;
+    height: 75px;
+    background-color: blue;
+}
+
+.c3cc2 {
+    width: 75px;
+    height: 75px;
+    background-color: crimson;
+}
+
+.c3cr {
+    width: 75px;
+    height: 75px;
+    background-color: hotpink;
+}
+
+.center3b {
+    width: 300px;
+    height: 150px;
+    background-color: aqua;
+}
+
+.right3 {
+    width: 210px;
+    height: 500px;
+    background-color: green;
+}
+
+.r3t {
+    width: 210px;
+    height: 100px;
+    background-color: chocolate;
+}
+
+.r3c {
+    width: 210px;
+    height: 250px;
+    background-color: blue;
+}
+
+.r3b {
+    width: 210px;
+    height: 150px;
+    background-color: rgb(14, 83, 110);
+    display: flex;
+}
+
+.r3bl {
+    width: 70px;
+    height: 150px;
+    background-color: rgb(14, 69, 250);
+}
+
+.r3bc {
+    width: 70px;
+    height: 150px;
+    background-color: lawngreen;
+}
+
+.r3br {
+    width: 70px;
+    height: 150px;
+    background-color: blueviolet;
+}
+
+
+
+
+
+
+
+
+
+
+.mainbox3 {
+    width: 700px;
+    height: 500px;
+    background-color: blueviolet;
+    display: flex;
+    margin: auto;
+}
+
+.leftbox4 {
+    width: 300px;
+    height: 500px;
+    background-color: blue;
+}
+
+.lt4 {
+    width: 300px;
+    height: 200px;
+    background-color: brown;
+}
+
+.lc4 {
+    width: 300px;
+    height: 50px;
+    background-color: cyan;
+    display: flex;
+}
+
+.lcl4 {
+    width: 75px;
+    height: 50px;
+    background-color: darkmagenta;
+}
+
+.lcc14 {
+    width: 75px;
+    height: 50px;
+    background-color: darkslateblue;
+}
+
+.lcc24 {
+    width: 75px;
+    height: 50px;
+    background-color: hotpink;
+}
+
+.lcb4 {
+    width: 75px;
+    height: 50px;
+    background-color: darkgreen;
+}
+
+.lb4 {
+    width: 300px;
+    height: 250px;
+    background-color: chartreuse;
+}
+
+.rightbox4 {
+    width: 400px;
+    height: 500px;
+    background-color: darkorchid;
+}
+
+.rt4 {
+    width: 400px;
+    height: 300px;
+    background-color: aqua;
+    display: flex;
+}
+
+.rtl4 {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+}
+
+.rtlt4 {
+    width: 300px;
+    height: 50px;
+    background-color: black;
+    display: flex;
+}
+
+.rtll4 {
+    width: 75px;
+    height: 50px;
+    background-color: blue;
+}
+
+.rtlc14 {
+    width: 75px;
+    height: 50px;
+    background-color: blueviolet;
+}
+
+.rtlc24 {
+    width: 75px;
+    height: 50px;
+    background-color: brown;
+}
+
+.rtlr4 {
+    width: 75px;
+    height: 50px;
+    background-color: rgb(29, 207, 252);
+}
+
+.rtlb4 {
+    width: 300px;
+    height: 250px;
+    background-color: lightcoral;
+
+}
+
+.rtr4 {
+    width: 100px;
+    height: 300px;
+    background-color: brown;
+}
+
+.rtrt4 {
+    width: 100px;
+    height: 150px;
+    background-color: deeppink;
+}
+
+.rtrc4 {
+    width: 100px;
+    height: 50px;
+    background-color: chartreuse;
+}
+
+.rtrb4 {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+}
+
+.rb4 {
+    width: 400px;
+    height: 200px;
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+.mainbox4 {
+    width: 600px;
+    height: 500px;
+    background-color: blueviolet;
+    margin: auto;
+}
+
+.topbox5 {
+    width: 600px;
+    height: 200px;
+    background-color: aqua;
+    display: flex;
+}
+
+.tl5 {
+    width: 210px;
+    height: 200px;
+    background-color: brown;
+}
+
+.tlt5 {
+    width: 210px;
+    height: 50px;
+    background-color: darkgreen;
+    display: flex;
+}
+
+.tltl5 {
+    width: 70px;
+    height: 50px;
+    background-color: rgb(23, 185, 235);
+}
+
+.tltc5 {
+    width: 70px;
+    height: 50px;
+    background-color: purple;
+}
+
+.tltr5 {
+    width: 70px;
+    height: 50px;
+    background-color: green;
+}
+
+.tlb5 {
+    width: 210px;
+    height: 150px;
+    background-color: lightcoral;
+}
+
+.tc5 {
+    width: 290px;
+    height: 200px;
+    background-color: darkkhaki;
+}
+
+.tr5 {
+    width: 100px;
+    height: 200px;
+    background-color: rgb(48, 92, 8);
+}
+
+.bottombox5 {
+    width: 600px;
+    height: 300px;
+    background-color: blue;
+    display: flex;
+}
+
+.bottoml5 {
+    width: 125px;
+    height: 300px;
+    background-color: chocolate;
+}
+
+.blt5 {
+    width: 125px;
+    height: 80px;
+    background-color: blue;
+}
+
+.blb5 {
+    width: 125px;
+    height: 220px;
+    background-color: rgb(4, 32, 109);
+}
+
+
+.bottomc5 {
+    width: 250px;
+    height: 300px;
+    background-color: darkslateblue;
+}
+
+.bct5 {
+    width: 250px;
+    height: 80px;
+    background-color: blueviolet;
+    display: flex;
+}
+
+.bctl5 {
+    width: 125px;
+    height: 80px;
+    background-color: aqua;
+}
+
+.bctr5 {
+    width: 125px;
+    height: 80px;
+    background-color: magenta;
+}
+
+.bcb5 {
+    width: 250px;
+    height: 220px;
+    background-color: darkred;
+}
+
+.bottomr5 {
+    width: 225px;
+    height: 300px;
+    background-color: violet;
+}
+
+.brt5 {
+    width: 225px;
+    height: 250px;
+    background-color: rgb(20, 198, 230);
+}
+
+.brb5 {
+    width: 225px;
+    height: 50px;
+    background-color: darkblue;
+    display: flex;
+}
+
+.brbl5 {
+    width: 56.25px;
+    height: 50px;
+    background-color: black;
+}
+
+.brbc15 {
+    width: 56.25px;
+    height: 50px;
+    background-color: forestgreen;
+}
+
+.brbc25 {
+    width: 56.25px;
+    height: 50px;
+    background-color: magenta;
+}
+
+.brbr5 {
+    width: 56.25px;
+    height: 50px;
+    background-color: maroon;
+}

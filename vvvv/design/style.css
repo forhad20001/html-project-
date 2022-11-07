@@ -1,0 +1,79 @@
+
+*{
+    box-sizing: border-box;
+
+}
+
+.main{background-color:  blue;
+
+height: 600px;
+width: 700px;
+margin: auto;
+padding-left: 150px;
+padding-top: 100px;
+
+}
+.box1{
+    width: 50px;
+    height: 400px;
+    background-color: chartreuse;
+    float: left;
+    border-top-left-radius:40px ;
+
+}
+.box2{
+    width: 200px;
+    height: 220px;
+    background-color: blue;
+    float: left;
+}
+.box6{
+    width:200px ;
+    height: 50px;
+    background-color: chartreuse;
+    border-top-right-radius: 20px;
+}
+.box7{
+    width: 200px;
+    height: 120px;
+    background-color: blue;
+}
+.box8{
+    width: 200px;
+    height: 50px;
+    background-color: chartreuse;
+}
+
+
+
+
+
+.box100{
+    width: 700px;
+    height: 700px;
+    background-color: rgb(89, 42, 165);
+    margin: auto;
+
+    box-shadow: -6px 2px 52px 24px rgba(214,20,20,0.76) inset;
+-webkit-box-shadow: -6px 2px 52px 24px rgba(214,20,20,0.76) inset;
+-moz-box-shadow: -6px 2px 52px 24px rgba(214,20,20,0.76) inset;
+
+transition-duration: 3s;
+}
+
+.box100:hover{
+
+width: 900px;
+height: 900px;
+transition-duration: 3s;
+}
+
+.diiii{height: 400px;
+width: 100%;
+background-image: radial-gradient(circle, red, green,blue);
+}
+
+
+
+
+
